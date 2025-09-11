@@ -1,0 +1,31 @@
+.cg-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #212121; /* fondo gris oscuro */
+}
+
+.brand-logo {
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.nav__link.active {
+  color: #ffb703; /* amarillo mostaza */
+}
+
+.nav-toggle {
+  display: none; /* luego lo mostramos solo en mobile */
+}
